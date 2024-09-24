@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    ;
+
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background: url('./back2.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.invitation {
+    width: 700px;
+
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #444;
+    text-align: center;
+    border: 2px solid #f5f5f5;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+header h1,
+.details h2 {
+    color: #ffc65c;
+}
+
+.countdown {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 27px;
+    font-size: 1.5em;
+}
+
+.time {
+    background: #ffc65c;
+    width: 100px;
+    height: 55px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.time span {
+    display: block;
+    font-size: 0.5em;
+}
+
+.map-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffc65c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.map-button:hover {
+    background-color: #ce952a;
+}
+
+header p {
+    margin-top: 0;
+    font-size: 22px;
+
+}
+
+
+.details p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+.top-words {
+    font-size: 22px;
+}
+
+.bold-p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.small-p {
+    font-size: 17px;
+}
+
+.alohida {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 490px) {
+    .invitation {
+        width: 90%;
+
+    }
+
+    .top-words {
+        font-size: 15px;
+    }
+
+    .bold-p {
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    .small-p {
+        font-size: 10px;
+    }
+
+    .alohida {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    .time {
+        /* background: rgba(254, 182, 182, 0.9); */
+        width: 70px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    .countdown {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        /* gap: 25px; */
+        margin-top: 27px;
+        /* font-size: 1.5em; */
+    }
+}
